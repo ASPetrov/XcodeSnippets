@@ -5,7 +5,6 @@ Collection of a few code snippets I have in my Xcode.
 # Installing The Snippets
 
 ## Manually
-```
 
 Donwload archive from this site [ZIP]( https://github.com/AleksandarPetrov/XcodeSnippets/archive/master.zip).
 
@@ -19,9 +18,9 @@ Open Xcode and check Code Snippet Library.
 
 
 #Snippets
-```
 
 ###Objective C
+```
 Objective-C-Localized-String
 Objective-C-Mark-Custom-Accessors
 Objective-C-Mark-Delegate
@@ -40,6 +39,9 @@ Objective-C-Mark-UITableViewDelegate
 Objective-C-Mark-UITextFieldDelegate
 Objective-C-Mark
 Objective-C-Setup
-	
+```	
+
 ###Swift
+```
 Swift-Mark
+```
