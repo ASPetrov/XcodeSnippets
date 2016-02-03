@@ -10,5 +10,8 @@ Donwload archive from this site [ZIP]( https://github.com/AleksandarPetrov/Xcode
 
 Extract the archive.
 
+Ensure Xcode is closed.
+
 Add Files To The Path: ~/Library/Developer/Xcode/UserData/CodeSnippets
 
+Open Xcode and check Code Snippet Library.
