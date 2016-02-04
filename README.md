@@ -28,7 +28,7 @@ There are two ways to insert a snippet into your code:
 2. Or for snippets that include a text completion shortcut, you can start typing that:
 ![Xcode use code snippets typing](http://nshipster.s3.amazonaws.com/xcode-snippet-text-completion-shortcut.gif)
 
-Image source and more info about using snippets in Xcode [NSHipster](http://nshipster.com/xcode-snippets/).
+Images source and more info about using snippets in Xcode [NSHipster](http://nshipster.com/xcode-snippets/).
 
 #Snippets
 
