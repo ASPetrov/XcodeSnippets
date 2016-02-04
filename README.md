@@ -61,6 +61,7 @@ mark      Mark snippet for Swift
 
 #To Do
 More snippets.
+Automate installation.
 
 #Contributing
 
