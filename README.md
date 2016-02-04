@@ -21,24 +21,24 @@ Open Xcode and check Code Snippet Library.
 
 ###Objective C
 ```
-loc         Snippet for ####NSLocalizedString(string, message)
+loc         Snippet for NSLocalizedString(<string>, <message>)
 markca      Snippet for #pragma mark - Custom Accessors
-Objective-C-Mark-Delegate
-Objective-C-Mark-IBActions
-Objective-C-Mark-Implementation
-Objective-C-Mark-Lifecycle
-Objective-C-Mark-Log-Class-Method
-Objective-C-Mark-NSObject
-Objective-C-Mark-Observers-And-Notifications-Handlers
-Objective-C-Mark-Private-Extension
-Objective-C-Mark-Private
-Objective-C-Mark-Protocol-Conformance
-Objective-C-Mark-Public
-Objective-C-Mark-UITableViewDataSource
-Objective-C-Mark-UITableViewDelegate
-Objective-C-Mark-UITextFieldDelegate
-Objective-C-Mark
-Objective-C-Setup
+markd       Snippet for #pragma mark - <name> Delegate
+marka       Snippet for #pragma mark - IBActions
+marki       Snippet for #pragma mark - <name> Implementation
+markl       Snippet for #pragma mark - <name> Lifecycle
+logm        Snippet for NSLog(@"%@ - %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd))
+marko       Snippet for #pragma mark - NSObject
+markn       Snippet for #pragma mark - Observers and Notifications handlers
+marke       Snippet for #pragma mark - <name> Private Extension
+markpr      Snippet for #pragma mark - Private
+markp       Snippet for #pragma mark - Protocol conformance
+markpub     Snippet for #pragma mark - Public
+marktds     Snippet for #pragma mark - UITableViewDataSource
+marktd      Snippet for #pragma mark - UITableViewDelegate
+marktfd     Snippet for #pragma mark - UITextFieldDelegate
+mark        Snippet for #pragma mark - <name>
+setup       Snippet for - (void)setup { <statements> }
 ```	
 
 ###Swift
