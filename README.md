@@ -21,8 +21,8 @@ Open Xcode and check Code Snippet Library.
 
 ###Objective C
 ```
-Objective-C-Localized-String
-Objective-C-Mark-Custom-Accessors
+loc         Snippet for ####NSLocalizedString(string, message)
+markca      Snippet for #pragma mark - Custom Accessors
 Objective-C-Mark-Delegate
 Objective-C-Mark-IBActions
 Objective-C-Mark-Implementation
@@ -43,5 +43,5 @@ Objective-C-Setup
 
 ###Swift
 ```
-Swift-Mark
+mark      Mark snippet for Swift
 ```
