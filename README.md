@@ -14,7 +14,7 @@ Collection of a few code snippets I have in my Xcode.
 
 3. In terminal navigate to the new directory and run setup.sh
 
-  Or from Finder Copy Files To The Path: `~/Library/Developer/Xcode/UserData/CodeSnippets`
+  Or from Finder copy files to this path: `~/Library/Developer/Xcode/UserData/CodeSnippets`
 
 #Usage
 
