@@ -56,7 +56,9 @@ setup       Snippet for - (void)setup { <statements> }
 
 ###Swift
 ```
-mark      Mark snippet for Swift
+mark              Mark snippet for Swift
+dispatch_after    Snippet for execute code in the future
+dispatch_once     Snippet for dispatch_once block inlined in a function
 ```
 
 #To Do
