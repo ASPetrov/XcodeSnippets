@@ -6,15 +6,15 @@ Collection of a few code snippets I have in my Xcode.
 
 ## Manually
 
-Donwload archive from this site [ZIP](https://github.com/AleksandarPetrov/XcodeSnippets/archive/master.zip).
+1. Ensure Xcode is closed.
 
-Extract the archive.
+2. Donwload archive from this site [ZIP](https://github.com/AleksandarPetrov/XcodeSnippets/archive/master.zip). Extract the archive.
 
-Ensure Xcode is closed.
+  Or check out the project using: git clone https://github.com/AleksandarPetrov/XcodeSnippets.git
 
-Add Files To The Path: `~/Library/Developer/Xcode/UserData/CodeSnippets`
+3. In terminal navigate to the new directory and run setup.sh
 
-Open Xcode.
+  Or from Finder Copy Files To The Path: `~/Library/Developer/Xcode/UserData/CodeSnippets`
 
 #Usage
 
