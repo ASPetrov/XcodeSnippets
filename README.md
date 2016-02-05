@@ -57,6 +57,8 @@ logm    |     NSLog(@"%@ - %@", NSStringFromClass([self class]), NSStringFromSel
 @prop   |     @property (strong, nonatomic) `Type` *`property name`;
 @view   |     @property (weak, nonatomic) UIView `property name`;
 @delegate |   @property (weak, nonatomic) id<`Protocol`> `name`Delegate;
+ro      |     readonly
+rw      |     readwrite
 setup   |     - (void)setup { <statements> }
 ```
 
