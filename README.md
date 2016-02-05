@@ -33,26 +33,40 @@ Images source and more info about using snippets in Xcode [NSHipster](http://nsh
 #Snippets
 
 ###Objective C
+
+Shortcut | Autocompletion
+--- | --- | ---
+loc     |     NSLocalizedString(<string>, <message>)
+markca  |     #pragma mark - Custom Accessors
+markd   |     #pragma mark - <name> Delegate
+marka   |     #pragma mark - IBActions
+marki   |     #pragma mark - <name> Implementation
+markl   |     #pragma mark - <name> Lifecycle
+marko   |     #pragma mark - NSObject
+markn   |     #pragma mark - Observers and Notifications handlers
+marke   |     #pragma mark - <name> Private Extension
+markpr  |     #pragma mark - Private
+markp   |     #pragma mark - Protocol conformance
+markpub |     #pragma mark - Public
+marktds |     #pragma mark - UITableViewDataSource
+marktd  |     #pragma mark - UITableViewDelegate
+marktfd |     #pragma mark - UITextFieldDelegate
+mark    |     #pragma mark - <name>
+logm    |     NSLog(@"%@ - %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd))
+@bool   |     @property (assign, nonatomic) BOOL `flag`;
+@prop   |     @property (strong, nonatomic) `Type` *`property name`;
+@view   |     @property (weak, nonatomic) UIView `property name`;
+@delegate |   @property (weak, nonatomic) id<`Protocol`> `name`Delegate;
+ro      |     readonly
+rw      |     readwrite
+domq    |     dispatch_async(dispatch_get_main_queue(), ^{ `code`; });
+dobq    |     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ `code` });
+setup   |     - (void)setup { <statements> }
+shared  |     + (instancetype)sharedInstance { ... } // full method using dispatch_once
+core data stack | - (void)initializeCoreDataStack { ... } // creates mom, psc and moc on the main queue
+
+
 ```
-loc         Snippet for NSLocalizedString(<string>, <message>)
-markca      Snippet for #pragma mark - Custom Accessors
-markd       Snippet for #pragma mark - <name> Delegate
-marka       Snippet for #pragma mark - IBActions
-marki       Snippet for #pragma mark - <name> Implementation
-markl       Snippet for #pragma mark - <name> Lifecycle
-logm        Snippet for NSLog(@"%@ - %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd))
-marko       Snippet for #pragma mark - NSObject
-markn       Snippet for #pragma mark - Observers and Notifications handlers
-marke       Snippet for #pragma mark - <name> Private Extension
-markpr      Snippet for #pragma mark - Private
-markp       Snippet for #pragma mark - Protocol conformance
-markpub     Snippet for #pragma mark - Public
-marktds     Snippet for #pragma mark - UITableViewDataSource
-marktd      Snippet for #pragma mark - UITableViewDelegate
-marktfd     Snippet for #pragma mark - UITextFieldDelegate
-mark        Snippet for #pragma mark - <name>
-setup       Snippet for - (void)setup { <statements> }
-```	
 
 ###Swift
 ```
