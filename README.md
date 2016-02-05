@@ -36,22 +36,22 @@ Images source and more info about using snippets in Xcode [NSHipster](http://nsh
 
 Shortcut | Autocompletion
 --- | --- | ---
-loc     |     NSLocalizedString(<string>, <message>)
+loc     |     NSLocalizedString(`string`, `message`)
 markca  |     #pragma mark - Custom Accessors
-markd   |     #pragma mark - <name> Delegate
+markd   |     #pragma mark - `name` Delegate
 marka   |     #pragma mark - IBActions
-marki   |     #pragma mark - <name> Implementation
-markl   |     #pragma mark - <name> Lifecycle
+marki   |     #pragma mark - `name` Implementation
+markl   |     #pragma mark - `name` Lifecycle
 marko   |     #pragma mark - NSObject
 markn   |     #pragma mark - Observers and Notifications handlers
-marke   |     #pragma mark - <name> Private Extension
+marke   |     #pragma mark - `name` Private Extension
 markpr  |     #pragma mark - Private
 markp   |     #pragma mark - Protocol conformance
 markpub |     #pragma mark - Public
 marktds |     #pragma mark - UITableViewDataSource
 marktd  |     #pragma mark - UITableViewDelegate
 marktfd |     #pragma mark - UITextFieldDelegate
-mark    |     #pragma mark - <name>
+mark    |     #pragma mark - `name`
 logm    |     NSLog(@"%@ - %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd))
 @bool   |     @property (assign, nonatomic) BOOL `flag`;
 @prop   |     @property (strong, nonatomic) `Type` *`property name`;
@@ -61,19 +61,17 @@ ro      |     readonly
 rw      |     readwrite
 domq    |     dispatch_async(dispatch_get_main_queue(), ^{ `code`; });
 dobq    |     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ `code` });
-setup   |     - (void)setup { <statements> }
+setup   |     - (void)setup { `statements` }
 shared  |     + (instancetype)sharedInstance { ... } // full method using dispatch_once
 core data stack | - (void)initializeCoreDataStack { ... } // creates mom, psc and moc on the main queue
 
-
-```
-
 ###Swift
-```
-mark              Mark snippet for Swift
-dispatch_after    Snippet for execute code in the future
-dispatch_once     Snippet for dispatch_once block inlined in a function
-```
+Shortcut | Autocompletion
+--- | --- | ---
+mark    |     Mark snippet for Swift
+dispatch_after  |     Snippet for execute code in the future
+dispatch_once   |     Snippet for dispatch_once block inlined in a function
+
 
 #To Do
 More snippets.
