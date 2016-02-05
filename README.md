@@ -60,6 +60,9 @@ logm    |     NSLog(@"%@ - %@", NSStringFromClass([self class]), NSStringFromSel
 ro      |     readonly
 rw      |     readwrite
 setup   |     - (void)setup { <statements> }
+domq    |     dispatch_async(dispatch_get_main_queue(), ^{ `code`; });
+dobq    |     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ `code` });
+
 ```
 
 ###Swift
