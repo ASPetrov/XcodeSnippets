@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>core data stack</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)initializeCoreDataStack
+{
+    self.managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:[self modelURL]];
+    self.persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
+    
+    self.managedObjectContext = [[self class] mainQueueContextWithName:@"Main Context"
+                                            persistentStoreCoordinator:self.persistentStoreCoordinator];
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+        [self addPersistentStores];
+    });
+}
+
+- (void)addPersistentStores
+{
+    NSDictionary *options = @{
+                              NSInferMappingModelAutomaticallyOption : @(YES),
+                              NSMigratePersistentStoresAutomaticallyOption: @(YES)
+                              };
+    
+    NSError *error = nil;
+    if (![self.persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:[self storeURL] options:options error:&amp;error]) {
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        abort();
+    }
+}
+
+- (NSURL *)modelURL
+{
+    return [[NSBundle mainBundle] URLForResource:&lt;#model name#&gt; withExtension:@"momd"];
+}
+
+- (NSURL *)storeURL
+{
+    return [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"&lt;#model name#&gt;.sqlite"];
+}
+
++ (NSManagedObjectContext *)mainQueueContextWithName:(NSString *)name persistentStoreCoordinator:(NSPersistentStoreCoordinator *)psc
+{
+    NSManagedObjectContext *managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
+    [managedObjectContext performBlockAndWait:^{
+        managedObjectContext.mergePolicy = NSMergeByPropertyStoreTrumpMergePolicy;
+        managedObjectContext.userInfo[@"name"] = name;
+        managedObjectContext.persistentStoreCoordinator = psc;
+    }];
+    
+    
+    return managedObjectContext;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>85245459-302D-46C0-BFF9-017D9F2D61A7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Initialize Core Data Stack</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

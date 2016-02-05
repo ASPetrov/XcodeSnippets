@@ -63,7 +63,7 @@ domq    |     dispatch_async(dispatch_get_main_queue(), ^{ `code`; });
 dobq    |     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ `code` });
 setup   |     - (void)setup { <statements> }
 shared  |     + (instancetype)sharedInstance { ... } // full method using dispatch_once
-
+core data stack | - (void)initializeCoreDataStack { ... } // creates mom, psc and moc on the main queue
 
 
 ```
