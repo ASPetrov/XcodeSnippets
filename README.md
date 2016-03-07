@@ -60,7 +60,7 @@ logm            |     NSLog(@"%@ - %@", NSStringFromClass([self class]), NSStrin
 ro              |     readonly  |
 rw              |     readwrite |
 domq            |     dispatch_async(dispatch_get_main_queue(), ^{ `code`; });  |
-dobq            |     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT ... |
+dobq            |     dispatch_async(dispatch_get_global_queue( ... );  |
 setup           |     - (void)setup { `statements` }  |
 shared          |     + (instancetype)sharedInstance { ... }  |   Full method using dispatch_once
 core data stack |     - (void)initializeCoreDataStack { ... } |   Creates mom, psc and moc on the main queue
