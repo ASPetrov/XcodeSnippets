@@ -64,15 +64,17 @@ dobq            |     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PR
 setup           |     - (void)setup { `statements` }  |
 shared          |     + (instancetype)sharedInstance { ... }  |   Full method using dispatch_once
 core data stack |     - (void)initializeCoreDataStack { ... } |   Creates mom, psc and moc on the main queue
+fixme           |     // FIXME:   |   This marker indicates a portion of your code that needs review or revision.
+todo            |     // TODO:    |   This marker is used to indicate portions of your code that needs to be completed.
 
 ###Swift
 Shortcut  | Autocompletion  | Comment
 --- | --- | ---
-mark    |   |     Used to separate groups of methods with similar functionality.
-fixme   |   |     This marker indicates a portion of your code that needs review or revision.
-todo   |   |     This marker is used to indicate portions of your code that needs to be completed.
-dispatch_after    |   |     Snippet for execute code in the future
-dispatch_once   |   |     Snippet for dispatch_once block inlined in a function
+mark            | // MARK: -  |   Used to separate groups of methods with similar functionality.
+fixme           | // FIXME:   |   This marker indicates a portion of your code that needs review or revision.
+todo            | // TODO:    |   This marker is used to indicate portions of your code that needs to be completed.
+dispatch_after  |             |   Snippet for execute code in the future
+dispatch_once   |             |   Snippet for dispatch_once block inlined in a function
 
 
 #To Do
