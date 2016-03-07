@@ -68,7 +68,9 @@ core data stack |     - (void)initializeCoreDataStack { ... } |   Creates mom, p
 ###Swift
 Shortcut  | Autocompletion  | Comment
 --- | --- | ---
-mark    |   |     Mark snippet for Swift
+mark    |   |     Used to separate groups of methods with similar functionality.
+fixme   |   |     This marker indicates a portion of your code that needs review or revision.
+todo   |   |     This marker is used to indicate portions of your code that needs to be completed.
 dispatch_after    |   |     Snippet for execute code in the future
 dispatch_once   |   |     Snippet for dispatch_once block inlined in a function
 
