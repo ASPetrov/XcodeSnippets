@@ -15,7 +15,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Used to separate groups of methods with similar functionality. This allows you and others who are looking at your code to quickly jump between relevant sections. Think of this like the old #pragma mark preprocessor in Objective-C. This marker is generally used the most frequently of the three.</string>
+	<string>Used to separate groups of methods with similar functionality.</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
