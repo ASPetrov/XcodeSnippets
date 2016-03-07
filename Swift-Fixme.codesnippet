@@ -6,9 +6,9 @@
 	<string>fixme</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
-		<string>CodeBlock</string>
 		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// FIXME:</string>
@@ -16,11 +16,13 @@
 	<string>30800C5D-FFDE-467E-A075-BD0558E4E9CD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>This marker indicates a portion of your code that needs review or revision.</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift Fix Me</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
