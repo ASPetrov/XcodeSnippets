@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fixme</string>
+	<string>todo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 		<string>CodeBlock</string>
 		<string>TopLevel</string>
+		<string>ClassInterfaceMethods</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// FIXME: </string>
+	<string>// TODO: </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>30800C5D-FFDE-467E-A075-BD0558E4E9CD</string>
+	<string>2D33AC8C-D2A7-410B-9863-A53F217983B9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>This marker indicates a portion of your code that needs review or revision.</string>
+	<string>This marker is used to indicate portions of your code that needs to be completed.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Fix Me</string>
+	<string>Objective-C To Do</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

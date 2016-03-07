@@ -8,18 +8,20 @@
 	<array>
 		<string>ClassImplementation</string>
 		<string>CodeBlock</string>
+		<string>ClassInterfaceVariables</string>
+		<string>ClassInterfaceMethods</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// FIXME: </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>30800C5D-FFDE-467E-A075-BD0558E4E9CD</string>
+	<string>00286354-1ACF-4DF9-9963-3E23661E636F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>This marker indicates a portion of your code that needs review or revision.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Fix Me</string>
+	<string>Objective-C Fix Me</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
