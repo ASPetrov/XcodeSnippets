@@ -73,19 +73,8 @@ Shortcut  | Autocompletion  | Comment
 mark            | // MARK: -  |   Used to separate groups of methods with similar functionality.
 fixme           | // FIXME:   |   This marker indicates a portion of your code that needs review or revision.
 todo            | // TODO:    |   This marker is used to indicate portions of your code that needs to be completed.
-dispatch_after  | dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64('seconds' * Double(NSEC_PER_SEC))), 'queue: dispatch_queue_t') { () -> Void in
-        
-        	          'code'
-    }   |   Snippet for execute code in the future
-dispatch_once   | struct DispatchOnce {
-            
-            static var token: dispatch_once_t = 0
-        }
-        
-        dispatch_once(&amp;DispatchOnce.token) {
-            
-            'code'
-        } |   Snippet for dispatch_once block inlined in a function
+dispatch_after  |             |   Snippet for execute code in the future
+dispatch_once   |             |   Snippet for dispatch_once block inlined in a function
 
 
 #To Do
