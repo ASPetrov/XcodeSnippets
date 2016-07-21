@@ -4,6 +4,12 @@ Collection of a few code snippets I have in my Xcode.
 
 # Installing The Snippets
 
+## Automatically
+
+Just run this command in your terminal.
+
+`git clone git@github.com:AleksandarPetrov/XcodeSnippets.git ~/Library/Developer/Xcode/UserData/CodeSnippets`
+
 ## Manually
 
 1. Ensure Xcode is closed.
@@ -70,9 +76,9 @@ todo            |     // TODO:    |   This marker is used to indicate portions o
 ###Swift
 Shortcut  | Autocompletion  | Comment
 --- | --- | ---
-mark            | // MARK: -  |   Used to separate groups of methods with similar functionality.
-fixme           | // FIXME:   |   This marker indicates a portion of your code that needs review or revision.
-todo            | // TODO:    |   This marker is used to indicate portions of your code that needs to be completed.
+mark            | //MARK: -  |   Used to separate groups of methods with similar functionality.
+fixme           | //FIXME:   |   This marker indicates a portion of your code that needs review or revision.
+todo            | //TODO:    |   This marker is used to indicate portions of your code that needs to be completed.
 dispatch_after  |             |   Snippet for execute code in the future
 dispatch_once   |             |   Snippet for dispatch_once block inlined in a function
 
