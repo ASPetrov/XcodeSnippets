@@ -77,10 +77,17 @@ todo            |     // TODO:    |   This marker is used to indicate portions o
 Shortcut  | Autocompletion  | Comment
 --- | --- | ---
 mark            | //MARK: -  |   Used to separate groups of methods with similar functionality.
+markl           | //MARK: - Lifecycle |
+markpr          | //MARK: - Private   |
+markpub         | //MARK: - Public    |
 fixme           | //FIXME:   |   This marker indicates a portion of your code that needs review or revision.
 todo            | //TODO:    |   This marker is used to indicate portions of your code that needs to be completed.
 dispatch_after  |             |   Snippet for execute code in the future
 dispatch_once   |             |   Snippet for dispatch_once block inlined in a function
+closureto       |             |   Optional closure typealias with arguments and return value snippet for Swift.
+closuret        |             |   Closure typealias with arguments and return value snippet for Swift.
+setup           | private func setup() { `statements` }  |
+singleton       |             | Singleton pattern for Swift using class constant
 
 
 #To Do
